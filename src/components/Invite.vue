@@ -23,7 +23,7 @@
       </div>
       <br>
       <h2 class="text-3xl font-black">WORKSHOP PROGRAM</h2>
-      <a class="link link-secondary font-italic">TOD</a>
+      <a class="link link-secondary font-italic">TBD</a>
       <br>
 <!--      <div>-->
 <!--        <ul style="list-style-type:disc;padding-left: 20px">-->
@@ -150,75 +150,82 @@
       </ul>
       <br>
       <h2 class="text-3xl font-black">ORGANIZERS</h2>
-      <div class="card card-side bg-base-100 shadow-x2">
-        <figure class="px-4 pt-4">
-          <img src="../assets/images/yating.png" class="rounded-xl" width="100" height="200">
-        </figure>
-        <div class="card-body item-center text-center">
-          <h2 class="card-title">Yating Zhang</h2>
-<!--          <p style="font-size: 15px;text-align: left" class="indent-8">-->
-<!--            Is the advanced NLP Algorithm scientist from Alibaba DAMO Academy. She got her Ph.D at Kyoto University in Japan. Her research interests lie at the intersection of Machine Learning and Information Retrieval/Natural Language Processing, in particular on areas relating to legal information retrieval, legal knowledge construction and legal document summarization etc. She serves as the co-leader of Legal Intelligence Commercialization project, which has been adopted in Zhejiang Higher People’s court and its subordinate courts as well as a number of legal companies. She also serves as the co-PI of the National Legal AI Court project.-->
-<!--          </p>-->
-          <div class="card-actions">
-            <div class="badge">Alibaba Group</div>
-            <div class="badge little-margin-left">China</div>
-          </div>
-        </div>
-      </div>
-      <div class="card card-side bg-base-100 shadow-x2">
-        <figure class="px-4 pt-4">
-          <img src="../assets/images/Xiaozhong_Liu.jpg" class="rounded-xl" width="100" height="300">
-        </figure>
-        <div class="card-body item-center text-center">
-          <h2 class="card-title"> Xiaozhong Liu</h2>
-<!--          <p style="font-size: 15px;text-align: left" class="indent-8">-->
-<!--            Is the Associate Professor at Computer Science and Data Science, WPI. Before that, he was Associate Professor at School of Informatics, Computing and Engineering Indiana University Bloomington. His research interests include natural language processing (NLP), text/graph mining, information retrieval/recommendation, metadata, and computational social science. His research is focusing on NLP, Information Retrieval, Text Mining and Knowledge Graph Mining. He leads the champion team to win the CAIL 2018 Legal Prediction Competition, and he serves as the PI of Legal NLP and Heterogeneous Legal Graph Mining project at Indiana University.-->
-<!--          </p>-->
-          <div class="card-actions">
-            <di class="badge">Worcester Polytechnic Institute</di>
-<!--            <div class="badge little-margin-left">WPI</div>-->
-            <div class="badge little-margin-left">USA</div>
-          </div>
-        </div>
-      </div>
-      <div class="card card-side bg-base-100 shadow-x2">
-        <figure class="px-4 pt-4">
-          <img src="../assets/images/changlong.png" class="rounded-xl" width="100" height="200">
-        </figure>
-        <div class="card-body item-center text-center">
-          <h2 class="card-title">Changlong Sun</h2>
-          <!--          <p style="font-size: 15px;text-align: left" class="indent-8">-->
-          <!--            Is the senior NLP algorithm scientist from Alibaba DAMO Academy. While he is leading the sentiment analysis and anti-spam research teams, he also serves as the leader of Legal Intelligence Commercialization project, which is a twenty-million dollar investment to explore innovative AI solutions for legal ecosystem. He has published more than 10 papers in the top NLP and data mining conferences along with more than 50 patents in data mining and machine/deep learning.-->
-          <!--          </p>-->
-          <div class="card-actions">
-            <div class="badge">Alibaba Group</div>
-            <div class="badge little-margin-left">China</div>
-          </div>
-        </div>
-      </div>
-      <div class="card card-side bg-base-100 shadow-x2">
-        <figure class="px-4 pt-4">
-          <img src="../assets/images/feiwu.png" class="rounded-xl" width="100" height="200">
-        </figure>
-        <div class="card-body item-center text-center">
-          <h2 class="card-title">Fei Wu</h2>
-<!--          <p style="font-size: 15px;text-align: left" class="indent-8">-->
-<!--            Received his B.Sc., M.Sc. and Ph.D. degrees in computer science from Lanzhou University, University of Macau and Zhejiang University in 1996, 1999 and 2002 respectively. From October, 2009 to August 2010, Fei Wu was a visiting scholar at Prof. Bin Yu’s group, University of California, Berkeley. Currently, He is a Qiushi distinguished professor of Zhejiang University at the college of computer science. He is the vice-dean of college of computer science, and the director of Institute of Artificial Intelligence of Zhejiang University. He is the chairman of IEEE CAS Hangzhou-Chapter since Oct, 2018. He is currently the Associate Editor of Multimedia System, the editorial members of Frontiers of Information Technology & Electronic Engineering. He has won various honors such as the Award of National Science Fund for Distinguished Young Scholars of China (2016). His research interests mainly include Legal Intelligence, Multimedia Analysis and Retrieval and Machine Learning.-->
-<!--          </p>-->
-          <div class="card-actions">
-            <div class="badge">Zhejiang University</div>
-            <div class="badge little-margin-left">China</div>
-          </div>
-        </div>
+      <div style="margin-top: 10px">
+        <el-row :gutter="24" style="margin-bottom: 20px">
+          <el-col :span="5">
+            <div>
+              <img src="/src/assets/images/yating.png" style="width: 190px; min-height: 200px;height: auto" class="images-radius" fit="fill"/>
+            </div>
+          </el-col>
+          <el-col :span="12">
+            <div style="width: 190px; height: 200px">
+              <span class="text-3xl">Yating Zhang</span>
+              <div class="card-actions py-6">
+                <div class="badge">Alibaba Group</div>
+                <div class="badge little-margin-left">China</div>
+              </div>
+            </div>
+          </el-col>
+        </el-row>
+        <el-row :gutter="24" style="margin-bottom: 20px">
+          <el-col :span="5">
+            <div>
+              <img src="/src/assets/images/Xiaozhong_Liu.jpg" style="width: 190px; min-height: 200px;height: auto" class="images-radius" fit="fill"/>
+            </div>
+          </el-col>
+          <el-col :span="12">
+            <div style="width: 300px; height: 200px">
+              <span class="text-3xl">Xiaozhong Liu</span>
+              <div class="card-actions py-6">
+                <div class="badge">Worcester Polytechnic Institute</div>
+                <div class="badge little-margin-left">USA</div>
+              </div>
+            </div>
+          </el-col>
+        </el-row>
+        <el-row :gutter="24" style="margin-bottom: 20px">
+          <el-col :span="5">
+            <div>
+              <img src="/src/assets/images/changlong.png" style="width: 190px; min-height: 200px;height: auto" class="images-radius" fit="fill"/>
+            </div>
+          </el-col>
+          <el-col :span="12">
+            <div style="width: 190px; height: 200px">
+              <span class="text-3xl">Changlong Sun</span>
+              <div class="card-actions py-6">
+                <div class="badge">Alibaba Group</div>
+                <div class="badge little-margin-left">China</div>
+              </div>
+            </div>
+          </el-col>
+        </el-row>
+        <el-row :gutter="24" style="margin-bottom: 20px">
+          <el-col :span="5">
+            <div>
+              <img src="/src/assets/images/feiwu.png" style="width: 190px; min-height: 200px;height: auto" class="images-radius" fit="fill"/>
+            </div>
+          </el-col>
+          <el-col :span="12">
+            <div style="width: 250px; height: 200px">
+              <span class="text-3xl">Fei Wu</span>
+              <div class="card-actions py-6">
+                <div class="badge">Zhejiang University</div>
+                <div class="badge little-margin-left">China</div>
+              </div>
+            </div>
+          </el-col>
+        </el-row>
       </div>
       <br>
-      <h2 class="text-3xl font-black">STEERING COMMITEE</h2>
-      <ul style="list-style-type:disc;padding-left: 20px">
-        <li>Yating Zhang, Advanced NLP algorithm scientist, Alibaba DAMO Academy</li>
-        <li>Xiaozhong Liu, Worcester Polytechnic Institute, Associate Professor at School of Informatics</li>
-        <li>Changlong Sun, Senior NLP algorithm scientist, Alibaba DAMO Academy</li>
-        <li>Fei Wu, Professor at School of Computer Science, Zhejiang University</li>
-      </ul>
+      <div style="float: left">
+        <h2 class="text-3xl font-black">STEERING COMMITEE</h2>
+        <ul style="list-style-type:disc;padding-left: 20px">
+          <li>Yating Zhang, Advanced NLP algorithm scientist, Alibaba DAMO Academy<a class="link link-primary font-italic">[Email: ranran.zyt@alibaba-inc.com]</a></li>
+          <li>Xiaozhong Liu, Worcester Polytechnic Institute, Associate Professor at School of Informatics</li>
+          <li>Changlong Sun, Senior NLP algorithm scientist, Alibaba DAMO Academy</li>
+          <li>Fei Wu, Professor at School of Computer Science, Zhejiang University</li>
+        </ul>
+      </div>
     </article>
   </div>
   <el-backtop :right="100" :bottom="100"/>
@@ -246,8 +253,7 @@ export default defineComponent({
   },
   data(){
     return({
-      startTime:"",
-      endTime:""
+
     })
   }
 });
@@ -267,5 +273,9 @@ export default defineComponent({
 }
 .font-italic{
   font-style:italic;
+}
+.images-radius{
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 0px 1px 1px 0px rgba(102,102,102,1);
 }
 </style>
