@@ -18,7 +18,7 @@
       <br>
       <div class="w-100 carousel rounded-box" style="width: 70%;height: 70%;">
         <div class="carousel-item w-full">
-          <img src="src/images/figure-new.jpg" class="w-full">
+          <img src="../assets/images/figure-new.jpg" class="w-full">
         </div>
       </div>
       <br>
@@ -152,7 +152,7 @@
       <h2 class="text-3xl font-black">ORGANIZERS</h2>
       <div class="card card-side bg-base-100 shadow-x2">
         <figure class="px-4 pt-4">
-          <img src="src/images/yating.png" class="rounded-xl" width="100" height="200">
+          <img src="../assets/images/yating.png" class="rounded-xl" width="100" height="200">
         </figure>
         <div class="card-body item-center text-center">
           <h2 class="card-title">Yating Zhang</h2>
@@ -167,7 +167,7 @@
       </div>
       <div class="card card-side bg-base-100 shadow-x2">
         <figure class="px-4 pt-4">
-          <img src="src/images/Xiaozhong_Liu.jpg" class="rounded-xl" width="100" height="300">
+          <img src="../assets/images/Xiaozhong_Liu.jpg" class="rounded-xl" width="100" height="300">
         </figure>
         <div class="card-body item-center text-center">
           <h2 class="card-title"> Xiaozhong Liu</h2>
@@ -183,7 +183,7 @@
       </div>
       <div class="card card-side bg-base-100 shadow-x2">
         <figure class="px-4 pt-4">
-          <img src="src/images/changlong.png" class="rounded-xl" width="100" height="200">
+          <img src="../assets/images/changlong.png" class="rounded-xl" width="100" height="200">
         </figure>
         <div class="card-body item-center text-center">
           <h2 class="card-title">Changlong Sun</h2>
@@ -198,7 +198,7 @@
       </div>
       <div class="card card-side bg-base-100 shadow-x2">
         <figure class="px-4 pt-4">
-          <img src="src/images/feiwu.png" class="rounded-xl" width="100" height="200">
+          <img src="../assets/images/feiwu.png" class="rounded-xl" width="100" height="200">
         </figure>
         <div class="card-body item-center text-center">
           <h2 class="card-title">Fei Wu</h2>
